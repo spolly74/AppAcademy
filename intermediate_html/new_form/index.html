@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Form</title>
+</head>
+<body>
+    <h1> This is my form</h1>
+    <form action="/form-handling-url" method="POST">
+        <fieldset>
+           <legend>Add User</legend>
+           <div>
+                <label for="firstName">First Name</label>
+                <input type="text" id="firsName" name="first_name">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="last_name">
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email_address">
+           </div>
+           <div>
+                <label for="status">Status</label>
+                <select name="status" id="user_status">
+                    <option value="student">Student</option>
+                    <option value="instructor">Instructor</option>
+                    <option value="guest">Guest</option>
+                </select>
+           </div>
+           <div>
+                <p>Choose your favorite programming language:</p>
+                <input type="radio" id="html" name="html" value="HTML" />
+                <label for="html">HTML</label>
+                <input type="radio" id="css" name="css" value="CSS" />
+                <label for="css"?>CSS</label>
+                <input type="radio" id="javascript" name="javascript" value="Javascript" />
+                <label for="javascript">Javascript</label>
+            </div>
+            <div>
+                <label for="comments">Comments</label>
+                <textarea name="comments" id="user_comments"></textarea>
+           </div>
+           <div>
+                <input type="checkbox" id="newsletter" name="newsletter_signUp"  />
+                <label for="newsletter">Sign up for newsletter</label>
+                <input type="checkbox" id="terms" name="agree_to_terms"  />
+                <label for="terms">I agree to terms and conditions</label>
+           </div>
+           <div>
+            <button type="submit">Submit</button>
+           </div>
+        </fieldset>
+
+
+    </form>
+
+</body>
+</html>

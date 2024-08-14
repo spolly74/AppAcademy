@@ -1,0 +1,44 @@
+html {
+
+}
+
+form {
+    display: flex;
+    width: 600px;
+
+}
+
+legend {
+    border: 1px solid black;
+}
+
+fieldset {
+    padding: 20px 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fav_lang {
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+}
+.fav_radio {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.comments {
+    margin-top: 20px;
+}
+.status_date {
+    display: flex;
+    flex-direction: row;
+}
